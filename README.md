@@ -23,7 +23,8 @@ Write a function that:
 - returns TRUE if a value is even 
 
 Note the modulus operator `%%` is useful. This is the remainder for division, so this provides an easy way to test whether an integer is even or odd as 7 %% 2 is `r 7 %% 2` and 8 %% 2 is `r 8 %% 2`.
-```{r func}
+
+```
 #is.even <- function(val){
 #  remainder <- val %% 2 == 1
 #}
@@ -39,26 +40,26 @@ Also write a sentence that describes the average housing price in Montana and us
 ## Q5. 
 Evaluate the following R code:
 
-```{r function,eval=F}
+```
 ski <- data.frame(ski.hill = c('Bridger Bowl','Big Sky','Red Lodge Mtn'), 
                   new.snow = c(TRUE,FALSE,TRUE),
                   acres = c(2000, 5800, 1600 ))
 ```
 
 ### a. (1 point)
-```{r eval=F}
+```
 ski[1, 1]
 ```
  
  
 ### b. (1 point)
-```{r eval=F}
+```
 subset(ski, new.snow == TRUE)
 ```
 
 
 ### c. (1 point)
-```{r eval=F}
+```
 max(ski$acres)
 ```
 
