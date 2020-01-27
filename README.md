@@ -38,7 +38,7 @@ Download the Housing dataset at: [http://math.montana.edu/ahoegh/teaching/stat40
 Also write a sentence that describes the average housing price in Montana and use R Markdown's inline tools to include the price in a sentence.
 
 ## Q5. 
-Evaluate the following R code:
+Evaluate the following R code and provide a written explanation for each piece of code.
 
 ```
 ski <- data.frame(ski.hill = c('Bridger Bowl','Big Sky','Red Lodge Mtn'), 
