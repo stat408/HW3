@@ -3,8 +3,8 @@
 
 Please use D2L to turn in both the HTML/DOC/PDF output and your R Markdown file in.
 
-## Q1. R style guide (4 pts)
-Summarize what you learned from the [Google R style guide](https://google.github.io/styleguide/Rguide.xml).
+## Q1. R style guide (2 pts)
+Summarize what you learned from the [Hadley Wickham's Style Guide](http://adv-r.had.co.nz/Style.html).
 
 ## Q2. Course Overview (2 pts)
 
@@ -15,30 +15,15 @@ What has been your favorite thing about this course so far?
 What (if anything) could be changed in this course to improve your learning?
 
 
-## Q3. Writing Functions (4 pts)
 
-Write a function that:
-
-- takes a integer and 
-- returns TRUE if a value is even 
-
-Note the modulus operator `%%` is useful. This is the remainder for division, so this provides an easy way to test whether an integer is even or odd as 7 %% 2 is `r 7 %% 2` and 8 %% 2 is `r 8 %% 2`.
-
-```
-#is.even <- function(val){
-#  remainder <- val %% 2 == 1
-#}
-```
-
-
-## Q4. Creating Tables (4 pts)
+## Q3. Creating Tables (2 pts)
 
 Download the Housing dataset at: [http://math.montana.edu/ahoegh/teaching/stat408/datasets/HousingSales.csv](http://math.montana.edu/ahoegh/teaching/stat408/datasets/HousingSales.csv). Compute the average home price across the states in the dataset. Print the results to a table using the `kable` function.
 
 Also write a sentence that describes the average housing price in Montana and use R Markdown's inline tools to include the price in a sentence.
 
-## Q5. 
-Evaluate the following R code and provide a written explanation for each piece of code.
+## Q4. 
+Evaluate the following R code and provide a written explanation about what each piece of code does.
 
 ```
 ski <- data.frame(ski.hill = c('Bridger Bowl','Big Sky','Red Lodge Mtn'), 
